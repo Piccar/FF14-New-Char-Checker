@@ -16,4 +16,6 @@ while(True):
                 sys.exit(0)
             if server.find('i', class_='world-ic__unavailable js__tooltip'):
                 print("Server Full")
+            if server.find('i', class_='world-ic__3 js__tooltip'):
+                print("Server Offline")
     time.sleep(5)
